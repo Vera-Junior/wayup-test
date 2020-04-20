@@ -88,22 +88,21 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 120px;
 }
 
-.item__time {
-    width: 305px;
-    padding-top: 90px;
-    background: url(../img/icon1.png) no-repeat center top;
+.item {
+  width: 305px;
+  padding-top: 90px;
 }
 
-.item__travel {
-    width: 305px;
-    padding-top: 90px;
-    background: url(../img/icon2.png) no-repeat center top;
+.item_time {
+  background: url(../img/icon1.png) no-repeat center top;
 }
 
-.item__live {
-    width: 310px;
-    padding-top: 90px;
-    background: url(../img/icon3.png) no-repeat center top;
+.item_travel {
+  background: url(../img/icon2.png) no-repeat center top;
+}
+
+.item_live {
+  background: url(../img/icon3.png) no-repeat center top;
 }
 
 .item__text {
@@ -144,8 +143,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 14px;
     color: #ffffff;
     text-align: center;
-    background-color: #164d7a; 
+    background-color: #164d7a;
     padding-top: 60px;
     padding-bottom: 60px;
 }
-
