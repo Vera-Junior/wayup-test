@@ -12,13 +12,14 @@ div, p, button, form, span, a, ul, li {
 
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
-    font-weight: bold;
+    font-weight: 700;
 }
 
 .container {
     width: 1170px;
     margin: 0 auto;
 }
+
 
 .header {
     background-color: #4bb9f9;
@@ -35,8 +36,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .content__block {
     width: 570px;
-    margin-top: 145px;
     color: #ffffff;
+    padding-top: 145px;
+    align-items:center;
+
 }
 
 .content__title {
@@ -51,9 +54,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .content__text {
     width: 380px;
-    margin-top: 45px;
-    margin-bottom: 45px;
+    padding-top: 50px;
+    padding-bottom: 45px;
     line-height: 1.5em;
+    margin: 0;
 }
 
 .btn {
@@ -70,22 +74,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .content__image {
-    margin: 0px;
-    padding-bottom: 145px;
+    align-items:center;
 }
 
 .title {
     font-size: 30px;
     text-align: center;
     padding-top: 100px;
-    margin-bottom: 60px;
+    padding-bottom: 60px;
 }
 
 .items {
     display: flex;
     justify-content: space-between;
     text-align: center;
-    margin-bottom: 120px;
+    padding-bottom: 120px;
 }
 
 .item {
@@ -118,11 +121,11 @@ h1, h2, h3, h4, h5, h6 {
     flex-direction: column;
     width: 340px;
     margin: 0 auto;
-
 }
 
 .input {
     font-family: 'Ubuntu', Helvetica, sans-serif;
+    font-weight: 400;
     font-size: 16px;
     border: 1px solid #bbbbbb;
     border-radius: 3px;
@@ -134,6 +137,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .btn-yellow {
     border: 0;
+    width: 340px;
     cursor: pointer;
     margin: 0 auto;
     margin-bottom: 100px;
