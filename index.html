@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Верстка современного сайта</title>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
@@ -10,14 +11,18 @@
 	<!-- Header -->
 	<header id="header" class="header">
 		<div class="container">
-			<img src="img/logo.png" class="logo" alt="logo" target="_blank">
-			<div class="content">
-				<div class="content__block">
-					<h1 class="content__title"> С помощью верстки <br>я создам ту жизнь, о которой <span>мечтаю!</span></h1>
-					<p class="content__text"> Мои стремления + настойчивость позволят мне достичь чего угодно. Я не верю в это. Я знаю это на 100%. Меня не остановить!	</p>
-					<a href="https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D0%BB%D0%B0%D0%B3%D0%B0" class="btn" target="_blank">Двигаться к мечте!</a>
+			<div class="header__content">
+				<div class="content__logo">	
+					<img src="img/logo.png" class="logo" alt="logo" target="_blank">
 				</div>
-				<img src="img/header.png" alt="pitcture" class="content__image">
+				<div class="content__block">
+					<div class="content__block-text">
+						<h1 class="content__title"> С помощью верстки <br>я создам ту жизнь, о которой <span>мечтаю!</span></h1>
+						<p class="content__text"> Мои стремления + настойчивость позволят мне достичь чего угодно. Я не верю в это. Я знаю это на 100%. Меня не остановить!	</p>
+						<a href="https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D0%BB%D0%B0%D0%B3%D0%B0" class="btn" target="_blank">Двигаться к мечте!</a>
+					</div>
+					<img src="img/header.png" alt="pitcture" class="content__image">
+				</div>
 			</div>
 		</div>
 	</header>
@@ -25,19 +30,21 @@
 	<!-- Advantage -->
 	<section id="advantage" class="advantage">
 		<div class="container">
-			<h2 class="title">Что меня ждет впереди</h2>
-			<div class="items">
-				<div class="item item_time">
-					<h3 class="item__title">Свободное время</h3>
-					<p class="item__text">Мне нужно свободное время на семью и самое настоящее</p>
-				</div>
-				<div class="item item_travel">
-					<h3 class="item__title">Яркие путешествия</h3>
-					<p class="item__text">Работать откуда угодно - что может быть лучше?</p>
-				</div>
-				<div class="item item_live">
-					<h3 class="item__title">Создание ценности</h3>
-					<p class="item__text">Нет ничего сильнее, чем жить не просто так, создавая ценность</p>
+			<div class="advantage__block">
+				<h2 class="title">Что меня ждет впереди</h2>
+				<div class="items">
+					<div class="item item_time">
+						<h3 class="item__title">Свободное время</h3>
+						<p class="item__text">Мне нужно свободное время на семью и самое настоящее</p>
+					</div>
+					<div class="item item_travel">
+						<h3 class="item__title">Яркие путешествия</h3>
+						<p class="item__text">Работать откуда угодно - что может быть лучше?</p>
+					</div>
+					<div class="item item_live">
+						<h3 class="item__title">Создание ценности</h3>
+						<p class="item__text">Нет ничего сильнее, чем жить не просто так, создавая ценность</p>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -46,22 +53,25 @@
 	<!-- Block__form -->
 	<section id="block__form" class="block__form">
 		<div class="container">
-			<h2 class="title">Форма заказа билета в будущее</h2>
-			<form action="#" class="form">
-				<input type="text" placeholder="Имя" name="name" class="input" required>
-				<input type="email" placeholder="E-mail" name="email" class="input" required>
-				<input type="tel" placeholder="Телефон" name="phone" class="input"  required>
-				<input type="text" placeholder="Куда я полечу в бижайшее время?" name="question" class="input" >
-				<button type="submit" class="btn btn-yellow">Двигаться к мечте!</button>
-			</form>
-
+			<div class="block__form-content">
+				<h2 class="title">Форма заказа билета в будущее</h2>
+				<form action="#" class="form">
+					<input type="text" placeholder="Имя" name="name" class="input" required>
+					<input type="email" placeholder="E-mail" name="email" class="input" required>
+					<input type="tel" placeholder="Телефон" name="phone" class="input"  required>
+					<input type="text" placeholder="Куда я полечу в бижайшее время?" name="question" class="input" >
+					<button type="submit" class="btn btn-yellow">Двигаться к мечте!</button>
+				</form>
+			</div>
 		</div>
 	</section>
 
 	<!-- Footer -->
 	<footer id="copyright" class="copyright">
 		<div class="container">
-			<p>© Все мои мечты защищены моим трудолюбием</p>
+			<div class="copyright__text">
+				<p>© Все мои мечты защищены моим трудолюбием</p>
+			</div>
 		</div>
 	</footer>
 </body>

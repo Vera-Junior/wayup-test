@@ -1,5 +1,5 @@
 body {
-    font-family: 'Ubuntu', Helvetica, sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     color: #201b2d;
     font-size: 16px;
     padding: 0;
@@ -20,26 +20,31 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0 auto;
 }
 
-
+	/* Header */
 .header {
     background-color: #4bb9f9;
 }
 
+.header__content {
+    padding-top: 65px;
+}
+
 .logo {
     width: 98px;
-    margin-top: 60px;
-}
-.content {
-    display: flex;
-    justify-content: space-between;
 }
 
 .content__block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.content__block-text {
     width: 570px;
     color: #ffffff;
-    padding-top: 145px;
-    align-items:center;
-
+    margin: 0 auto;
+    padding-top: 150px;
+    padding-bottom: 200px;
 }
 
 .content__title {
@@ -61,9 +66,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn {
-    font-family: 'Montserrat', Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 15px;
-    font-weight: bold;
     color: #2e2a1b;
     text-decoration: none;
     text-align: center;
@@ -77,10 +81,16 @@ h1, h2, h3, h4, h5, h6 {
     align-items:center;
 }
 
+
+    /* Advantage */
+.advantage__block {
+    padding-top: 100px;
+    padding-bottom: 130px;
+}
+
 .title {
     font-size: 30px;
     text-align: center;
-    padding-top: 100px;
     padding-bottom: 60px;
 }
 
@@ -88,7 +98,6 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     justify-content: space-between;
     text-align: center;
-    padding-bottom: 120px;
 }
 
 .item {
@@ -112,8 +121,16 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.5em;
 }
 
+
+    /* Block__form */
 .block__form {
     background-color: #ecf3f8;
+
+}
+
+.block__form-content {
+    padding-top: 100px;
+    padding-bottom: 100px; 
 }
 
 .form {
@@ -124,7 +141,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .input {
-    font-family: 'Ubuntu', Helvetica, sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-weight: 400;
     font-size: 16px;
     border: 1px solid #bbbbbb;
@@ -140,14 +157,19 @@ h1, h2, h3, h4, h5, h6 {
     width: 340px;
     cursor: pointer;
     margin: 0 auto;
-    margin-bottom: 100px;
 }
+
+
+    /* Footer */
 .copyright {
-    font-family: 'Open Sans', Helvetica, sans-serif;
-    font-size: 14px;
-    color: #ffffff;
-    text-align: center;
     background-color: #164d7a;
+}
+
+.copyright__text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    color: #ffffff;
     padding-top: 60px;
-    padding-bottom: 60px;
+    padding-bottom: 65px;
 }
