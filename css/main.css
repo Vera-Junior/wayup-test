@@ -40,7 +40,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .content__block-text {
-    width: 570px;
+    width: 560px;
     color: #ffffff;
     margin: 0 auto;
     padding-top: 150px;
@@ -172,4 +172,78 @@ h1, h2, h3, h4, h5, h6 {
     color: #ffffff;
     padding-top: 60px;
     padding-bottom: 65px;
+}
+
+    /*Responsive*/
+/* 992px - 1200px */
+@media screen and (max-width: 1200px) {
+	.container {
+        width: 960px;
+    }
+    
+    .content__block {
+        flex-direction: column;
+    }
+
+    .content__block-text {
+        width: 100%;
+        text-align: center;
+        padding-bottom: 0px;
+    }
+
+    .content__text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .btn {
+        margin: 0 auto;
+    }
+
+}
+
+/* 768px - 992px */
+@media screen and (max-width: 992px) {
+	.container {
+		width: 720px;
+    }
+
+    .items {
+        flex-direction: column;
+    }
+
+    .item {
+        width: auto;
+        margin-bottom: 20px;
+    }
+
+}
+
+/* 576px - 768px */
+@media screen and (max-width: 768px) {
+	.container {
+		width: 540px;
+    }
+
+    .content__image {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+}
+
+/* 320px - 576px */
+@media screen and (max-width: 576px) {
+	.container {
+		width: 90%;
+    }
+    
+    .form {
+        width: auto;
+    }
+
+    .btn-yellow {
+        width: 100%; 
+    }
 }
