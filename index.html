@@ -5,6 +5,7 @@
 	<title>Верстка современного сайта</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/animate.css"/>
 	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
@@ -14,15 +15,15 @@
 		<div class="container">
 			<div class="header__content">
 				<div class="content__logo">	
-					<img src="img/logo.png" class="logo" alt="logo" target="_blank">
+					<img src="img/logo.png" class="logo animated zoomIn" alt="logo" target="_blank">
 				</div>
 				<div class="content__block">
-					<div class="content__block-text">
-						<h1 class="content__title"> С помощью верстки <br>я создам ту жизнь, о которой <span>мечтаю!</span></h1>
+					<div class="content__block-text animated fadeInLeft">
+						<h1 class="content__title "> С помощью верстки <br>я создам ту жизнь, о которой <span>мечтаю!</span></h1>
 						<p class="content__text"> Мои стремления + настойчивость позволят мне достичь чего угодно. Я не верю в это. Я знаю это на 100%. Меня не остановить!	</p>
 						<a href="https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D0%BB%D0%B0%D0%B3%D0%B0" class="btn" target="_blank">Двигаться к мечте!</a>
 					</div>
-					<img src="img/header.png" alt="pitcture" class="content__image">
+					<img src="img/header.png" alt="pitcture" class="content__image animated fadeInRight">
 				</div>
 			</div>
 		</div>
@@ -32,17 +33,17 @@
 	<section id="advantage" class="advantage">
 		<div class="container">
 			<div class="advantage__block">
-				<h2 class="title">Что меня ждет впереди</h2>
+				<h2 class="title animated">Что меня ждет впереди</h2>
 				<div class="items">
-					<div class="item item_time">
+					<div class="item animated item_time">
 						<h3 class="item__title">Свободное время</h3>
 						<p class="item__text">Мне нужно свободное время на семью и самое настоящее</p>
 					</div>
-					<div class="item item_travel">
+					<div class="item animated item_travel">
 						<h3 class="item__title">Яркие путешествия</h3>
 						<p class="item__text">Работать откуда угодно - что может быть лучше?</p>
 					</div>
-					<div class="item item_live">
+					<div class="item animated item_live">
 						<h3 class="item__title">Создание ценности</h3>
 						<p class="item__text">Нет ничего сильнее, чем жить не просто так, создавая ценность</p>
 					</div>
@@ -55,8 +56,8 @@
 	<section id="block__form" class="block__form">
 		<div class="container">
 			<div class="block__form-content">
-				<h2 class="title">Форма заказа билета в будущее</h2>
-				<form action="#" class="form">
+				<h2 class="title animated">Форма заказа билета в будущее</h2>
+				<form action="#" class="form animated">
 					<input type="text" placeholder="Имя" name="name" class="input" required>
 					<input type="email" placeholder="E-mail" name="email" class="input" required>
 					<input type="tel" placeholder="Телефон" name="phone" class="input"  required>
@@ -75,5 +76,7 @@
 			</div>
 		</div>
 	</footer>
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/main.js"></script>
 </body>
 </html>

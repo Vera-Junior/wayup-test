@@ -4,6 +4,7 @@ body {
     font-size: 16px;
     padding: 0;
     margin: 0;
+    overflow-x: hidden;
 }
 
 div, p, button, form, span, a, ul, li {
@@ -175,29 +176,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
     /*Responsive*/
+    
 /* 992px - 1200px */
 @media screen and (max-width: 1200px) {
 	.container {
         width: 960px;
     }
-    
-    .content__block {
-        flex-direction: column;
-    }
 
     .content__block-text {
         width: 100%;
-        text-align: center;
-        padding-bottom: 0px;
     }
 
     .content__text {
         width: 100%;
-        text-align: center;
-    }
-
-    .btn {
-        margin: 0 auto;
     }
 
 }
@@ -208,6 +199,10 @@ h1, h2, h3, h4, h5, h6 {
 		width: 720px;
     }
 
+    .content__block {
+        flex-direction: column;
+    }
+
     .items {
         flex-direction: column;
     }
@@ -215,6 +210,19 @@ h1, h2, h3, h4, h5, h6 {
     .item {
         width: auto;
         margin-bottom: 20px;
+    }
+
+    .content__block-text {
+        text-align: center; 
+        padding-bottom: 0px;
+    }
+
+    .content__text {
+    
+        text-align: center;
+    }
+       .btn {
+        margin: 0 auto;
     }
 
 }
